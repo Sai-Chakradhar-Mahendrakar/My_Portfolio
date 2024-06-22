@@ -1,0 +1,163 @@
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
+}
+.group:hover .overlay {
+  opacity: 1;
+}
+
+.custom-scrollbar {
+  max-height: 500px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Adjust the width for visibility */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #b0b0b0; /* Match the thumb color to your example */
+  border-radius: 6px; /* Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f5f5f5; /* Lighter track color */
+  border-radius: 6px; /* Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #888; /* Darker color on hover */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track-piece:end {
+  background: transparent; /* To show the end arrow */
+}
+
+.custom-scrollbar::-webkit-scrollbar-button:single-button {
+  display: block;
+  height: 12px; /* Adjust height to match thumb width */
+  background-color: #000;
+  border-radius: 3px; /* Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-button:single-button:decrement {
+  background-image: url('path-to-your-up-arrow.png'); /* Path to your up arrow image */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button:single-button:increment {
+  background-image: url('path-to-your-down-arrow.png'); /* Path to your down arrow image */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Floating animation CSS */
+/* Floating animation CSS */
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-icon {
+  animation: floating 3s ease-in-out infinite;
+}
+
+.floating-icon:nth-child(1) {
+  animation-duration: 3s;
+}
+
+.floating-icon:nth-child(2) {
+  animation-duration: 4s;
+}
+
+.floating-icon:nth-child(3) {
+  animation-duration: 5s;
+}
+
+.floating-icon:nth-child(4) {
+  animation-duration: 6s;
+}
+
+.floating-icon {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Add this to your CSS file */
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #4B5563;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
