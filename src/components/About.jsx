@@ -1,28 +1,25 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import image1 from "../assets/about/code.jpg";
+import image2 from "../assets/about/ai-ml.png";
+import image3 from "../assets/about/datascience.jpg";
+import image4 from "../assets/about/dbms.webp";
+import image5 from "../assets/about/Mern-Stack.png";
 
-const imageUrls = [
-  "src/assets/about/code.jpg",
-  "src/assets/about/ai-ml.png", 
-  "src/assets/about/datascience.jpg",
-  "src/assets/about/dbms.webp",
-  "src/assets/about/Mern-Stack.png",
-];
-
-
+const imageUrls = [image1, image2, image3, image4, image5];
 
 export default function About() {
   return (
     <section id="about" className="relative bg-gradient-to-br from-blue-50 to-gray-100 min-h-screen py-20">
       <div className="absolute inset-0 z-0 overflow-hidden opacity-30">
-        <div className="flex flex-wrap justify-around h-full">
+        <div className="flex flex-wrap justify-center items-center h-full">
           {imageUrls.map((url, index) => (
             <motion.img
               key={index}
               src={url}
               alt={`Tech image ${index + 1}`}
-              className="w-1/4 h-1/4 object-cover m-4 rounded-lg shadow-lg"
+              className="w-1/2 sm:w-1/4 md:w-1/5 h-auto object-cover m-4 rounded-lg shadow-lg"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -31,7 +28,7 @@ export default function About() {
         </div>
       </div>
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div 
           className="relative z-10 max-w-4xl mx-auto p-8 bg-white bg-opacity-90 rounded-2xl shadow-xl"
           initial={{ opacity: 0, y: 20 }}
