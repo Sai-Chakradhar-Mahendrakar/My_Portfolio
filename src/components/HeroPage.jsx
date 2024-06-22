@@ -73,7 +73,7 @@ export default function HeroPage() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 bg-white py-2 px-6 rounded-full shadow-lg text-center">
+      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 bg-white py-2 px-6 rounded-full shadow-lg text-center">
         <p className="font-semibold text-lg text-gray-800">30+ Projects Completed</p>
       </div>
     </div>
