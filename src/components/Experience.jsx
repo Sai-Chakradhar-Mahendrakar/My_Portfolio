@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, ArrowUpRight } from 'lucide-react';
+import eeg from '../assets/experience/eeg.png';
+import ros from '../assets/experience/ros.png';
+import fl from '../assets/experience/fl.png';
+
+
+
 
 const experiences = [
   {
@@ -12,7 +18,7 @@ const experiences = [
       "Forges a new path in biometric security, tapping into the distinctive and intrinsic nature of EEG signals for unparalleled user identification."
     ],
     link: "https://github.com/Sai-Chakradhar-Mahendrakar/EEG-based-Person-Identification-and-Authentication",
-    image: "./src/assets/experience/eeg.png"  
+    image: eeg  
   },
   {
     title: " Obstacle Avoidance in Autonomous Vehicles",
@@ -23,7 +29,7 @@ const experiences = [
       "Conducts real-time simulations within the ROS framework to validate the reliability and practicality of the collision avoidance strategy."
     ],
     link: "https://github.com/Sai-Chakradhar-Mahendrakar/Obstacle-Avoidance-in-Autonomous-Vehicles",
-    image: "./src/assets/experience/ros.png"  
+    image: ros 
   },
   {
     title: "Healthcare Data Privacy Using Federated Learning and Homomorphic Encryption",
@@ -34,7 +40,7 @@ const experiences = [
       "Ensured compliance with data privacy regulations by implementing Federated Learning and Homomorphic Encryption techniques, protecting patient information at every stage of data processing."
     ],
     link: "",
-    image: "./src/assets/experience/fl.png"  
+    image: fl  
   }
 ];
 
