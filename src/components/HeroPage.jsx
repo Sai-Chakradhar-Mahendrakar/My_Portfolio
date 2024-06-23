@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faJs, faNode, faHtml5, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faBrain, faCode, faChartLine, faDatabase } from '@fortawesome/free-solid-svg-icons';
-import myImage from '../assets/Chakri.jpg'; // Ensure this path is correct
+import myImage from '../assets/Chakri.jpg'; 
 
 export default function HeroPage() {
   const [isVisible, setIsVisible] = useState(false);
@@ -73,7 +73,7 @@ export default function HeroPage() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 bg-white py-2 px-6 rounded-full shadow-lg text-center">
+      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 bg-white py-2 px-6 rounded-full shadow-lg text-center">
         <p className="font-semibold text-lg text-gray-800">30+ Projects Completed</p>
       </div>
     </div>
