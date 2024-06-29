@@ -50,7 +50,7 @@ export default function Footer() {
 
           {/* Social Links */}
           <div className="flex items-center space-x-4">
-            <a href="https://www.linkedin.com/in/sai-chakradhar-mahendrakar-0b0626248/" className="text-xl hover:text-blue-400 transition duration-300">
+            <a href="https://www.linkedin.com/in/saichakradharrm/" className="text-xl hover:text-blue-400 transition duration-300">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a href="https://github.com/Sai-Chakradhar-Mahendrakar" className="text-xl hover:text-gray-400 transition duration-300">
