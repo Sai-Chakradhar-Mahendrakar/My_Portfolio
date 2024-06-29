@@ -45,7 +45,7 @@ export default function HeroPage() {
             With expertise in AI/ML, full-stack development, and data science, I'm ready to tackle complex challenges.
           </p>
           <div className="flex justify-center lg:justify-start space-x-4 mb-6">
-            <a href="https://www.linkedin.com/in/sai-chakradhar-mahendrakar-0b0626248/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/saichakradharrm/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a href="https://github.com/Sai-Chakradhar-Mahendrakar" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 transition-colors duration-300">
