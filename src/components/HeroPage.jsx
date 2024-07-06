@@ -66,8 +66,8 @@ export default function HeroPage() {
             <FloatingIconBubble icon={faReact} color="text-blue-400" position="-top-8 right-0" animationDelay="0s"/>
             <FloatingIconBubble icon={faNode} color="text-green-500" position="-bottom-8 left-0" animationDelay="0.5s"/>
             <FloatingIconBubble icon={faJs} color="text-yellow-400" position="top-1/4 -left-8" animationDelay="1s"/>
-            <FloatingIconBubble icon={faDatabase} color="text-purple-500" position="top-0 left-1/4" animationDelay="1.5s"  />
-            <FloatingIconBubble icon={faBrain} color="text-pink-500" position="bottom-0 right-1/4" animationDelay="2s"/>
+            <FloatingIconBubble icon={faBrain} color="text-pink-500" position="top-0 left-1/4" animationDelay="1.5s"  />
+            <FloatingIconBubble icon={faDatabase} color="text-purple-500" position="bottom-0 right-1/4" animationDelay="2s"/>
             <FloatingIconBubble icon={faChartLine} color="text-indigo-500" position="top-1/2 -right-8" animationDelay="2.5s"/>
             <FloatingIconBubble icon={faCode} color="text-gray-700" position="bottom-1/4 -left-8" animationDelay="3.5s"/>
           </div>
