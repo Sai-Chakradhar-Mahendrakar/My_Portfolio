@@ -131,22 +131,21 @@ const CodeChefProfile = ({ username }) => {
 
 // New GeeksforGeeks Profile Component
 const GFGProfile = ({ username }) => {
-  // const { data, loading, error } = useFetchProfile(
-  //   `https://gfg-api.vercel.app/${username}`
-  // );
+  const { data, loading, error } = useFetchProfile(
+    `https://gfg-rating-api.vercel.app/profile/${username}`
+  );
 
-  // if (loading) return <LoadingCard platform="GeeksforGeeks" />;
-  // if (error) return <ErrorCard platform="GeeksforGeeks" error={error} />;
-  const data=0;
+  if (loading) return <LoadingCard platform="GeeksforGeeks" />;
+  if (error) return <ErrorCard platform="GeeksforGeeks" error={error} />;
   return (
     <ProfileCard
       platform="GeeksforGeeks"
       Icon={Award}
       username={username}
       stats={[
-        { label: "Problems Solved", value: data?.problemsSolved || "142" },
-        { label: "Coding Stars", value: data?.codingScore || "2★" },
-        { label: "Coding Rating", value: data?.monthlyRank || "1492" },
+        { label: "Problems Solved", value: data?.problems_solved || "N/A" },
+        { label: "Coding Stars", value: data?.stars+'★' || "N/A" },
+        { label: "Coding Rating", value: data?.contest_rating || "N/A" },
       ]}
       link={`https://auth.geeksforgeeks.org/user/${username}`}
       bgColor="from-green-500 to-green-700"
