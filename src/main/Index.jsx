@@ -1,4 +1,5 @@
 import About from "../components/About";
+import CodingProfiles from "../components/CodingProfiles";
 import ContactMe from "../components/ContactMe";
 import EducationTimeline from "../components/Education";
 import Experience from "../components/Experience";
@@ -13,6 +14,7 @@ export default function Index(){
         <>
             <Navbar/>
             <HeroPage/>
+            <CodingProfiles/>
             <About/>
             <Experience/>
             <Project/> 

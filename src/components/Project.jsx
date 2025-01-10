@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Code, ExternalLink, ArrowUpRight } from 'lucide-react';
 
 const projects = [
@@ -74,9 +74,10 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-gradient-to-br from-blue-50 to-gray-100 min-h-screen flex items-center justify-center py-16 px-4">
       <div className="w-full max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-blue-600 text-center mb-12">
+        <h2 className="text-5xl font-bold text-blue-600 text-center mb-3">
           Projects
         </h2>
+        <hr className="w-16 h-1 bg-blue-600 border-0 rounded mb-6 mx-auto" />
         <div className="relative">
           <ProjectCard project={projects[currentIndex]} />
           <button

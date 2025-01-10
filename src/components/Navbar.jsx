@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { Menu, X, Download } from 'lucide-react';
 

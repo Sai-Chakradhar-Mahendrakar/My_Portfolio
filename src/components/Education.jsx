@@ -29,7 +29,7 @@ export default function Education() {
   return (
     <section id="education" className="bg-gradient-to-br from-blue-50 to-gray-100 min-h-screen flex flex-col">
       <div className="flex-grow flex flex-col justify-center px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center text-blue-600 mb-2">Education</h2>
+        <h2 className="text-5xl font-bold text-blue-600 text-center mb-2">Education</h2>
         <hr className="w-16 h-1 bg-blue-600 border-0 rounded mb-6 mx-auto" />
         <div className="relative max-w-6xl mx-auto w-full">
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-400"></div>
