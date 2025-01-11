@@ -6,7 +6,7 @@ export default function Education() {
       degree: "Bachelor of Technology",
       institution: "SRM University AP",
       description: "Computer Science and Engineering Specialized in Artificial Intelligence and Machine Learning",
-      grade: "CGPA: 9.20",
+      grade: "CGPA: 9.28",
       period: "2021 - 2025",
       align: "right"
     },
