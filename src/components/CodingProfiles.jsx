@@ -228,7 +228,7 @@ export default function CodingProfiles() {
       username: "Future Stack",
       description:
         "Tech tutorials, coding challenges, and problem-solving videos",
-      link: "https://youtube.com/@@CodeMadeSimpleByChakri",
+      link: "https://youtube.com/@CodeMadeSimpleByChakri",
       bgColor: "from-red-500 to-red-700",
     },
     {
