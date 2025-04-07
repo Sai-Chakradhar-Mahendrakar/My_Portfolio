@@ -225,7 +225,7 @@ export default function CodingProfiles() {
     {
       platform: "YouTube",
       Icon: Youtube,
-      username: "Future Stack",
+      username: "Coding made simple",
       description:
         "Tech tutorials, coding challenges, and problem-solving videos",
       link: "https://youtube.com/@CodeMadeSimpleByChakri",
